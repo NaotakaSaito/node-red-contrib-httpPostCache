@@ -1,16 +1,31 @@
 {
-  "name": "node-red-contrib-filecache",
+  "name": "node-red-contrib-httppostcache",
   "version": "1.0.0",
   "description": "If posting data is failed, data is stored in file after posting process. ",
   "main": "src/file-cache.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"node-red" : {
-		"nodes": {
-			"file-cache": "src/http-post-cache.js"
-		}
-	},
-	"author": "",
-	"license": "ISC"
+  },
+  "node-red": {
+    "nodes": {
+      "file-cache": "src/http-post-cache.js"
+    }
+  },
+  "author": "Naotaka Saito",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaotakaSaito/node-red-contrib-httpPostCache.git"
+  },
+  "keywords": [
+    "node-red",
+    "http-post"
+  ],
+  "bugs": {
+    "url": "https://github.com/NaotakaSaito/node-red-contrib-httpPostCache/issues"
+  },
+  "homepage": "https://github.com/NaotakaSaito/node-red-contrib-httpPostCache#readme"
 }
