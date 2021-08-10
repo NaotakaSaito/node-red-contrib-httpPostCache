@@ -9,6 +9,13 @@
 
 送信完了したデータはcacheから削除されます。残ったファイルは未送信データになります。
 
+# インストール方法
+
+```
+npm install node-red-contrib-httppostcache
+
+```
+
 # 使い方
 
 1. http requestノードの前に httpPostCacheのinputを、http requestノードの後ろにhttpPostCacheのjudgeを配置してください。
